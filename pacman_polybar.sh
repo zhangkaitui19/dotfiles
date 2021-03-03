@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Polybar config... add this as a custom module in your polybar config file
+# [module/custom1]
+# type = custom/script
+# exec = ~/scripts/experiment.sh
+# tail = true
+
 YELLOW=%{F#FFFF00}
 RED=%{F#FF0000}
 BLUE=%{F#0000FF}
